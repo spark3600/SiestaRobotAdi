@@ -38,7 +38,7 @@ logging.getLogger("pyrogram").setLevel(logging.INFO)
 logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLevel(logging.WARNING)
 
 LOGGER = logging.getLogger('[SiestaRobot]')
-LOGGER.info("Siesta is starting. | An Shiinobu Project Parts. | Licensed under GPLv3.")
+LOGGER.info("Siesta is starting. | A Shinobu Project | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
 LOGGER.info("Project maintained by: github.com/shiinobu (t.me/saint_foire)")
 
@@ -213,13 +213,13 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(2088106582)
-DRAGONS.add(945137470)
-DRAGONS.add(5099853374)
+DRAGONS.add(1163686164)
+DRAGONS.add(1163686164)
+DRAGONS.add(1163686164)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(2088106582)
-DEV_USERS.add(945137470)
-DEV_USERS.add(5099853374)
+DEV_USERS.add(1163686164)
+DEV_USERS.add(1163686164)
+DEV_USERS.add(1163686164)
 
 if not SPAMWATCH_API:
     sw = None
